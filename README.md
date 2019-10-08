@@ -1,4 +1,4 @@
-# vimeo-dowload-direct-file
+# vimeo-download-direct-file
 Projeto que retorna link direto para Download do vimeo 
 
 Uma classe utilitária para fazer downloads de vídeos do player da vimeo (https://player.vimeo.com/video/idVideo), assim pode-se realizar o download por qualquer método desejado.
