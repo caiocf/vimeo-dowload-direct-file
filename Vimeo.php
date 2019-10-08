@@ -20,7 +20,7 @@ class Vimeo
     public function getVimeoDirectUrl($url)
     {
         $result = '';
-        $videoInfo = $this->getVimeoVideoInfo($url);
+        $videoInfo = $this->getVimeoVideoInfo($url . "/config");
 
         if ($videoInfo && $videoObject = $this->getVimeoQualityVideo($videoInfo->request->files)) {
             $result = $videoObject->url;
