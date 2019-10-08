@@ -7,12 +7,9 @@ Segue exemplo:
 
 
 <p>
-<?php
-
 $video = new Vimeo();
 
 echo "Link: " . $video->getVimeoDirectUrl("https://player.vimeo.com/video/97370509");
-?>
 </p>
 
 Resultado: 
